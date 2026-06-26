@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Shrevatsan Venkatesan — Mechanical Engineer | Fluidics, Thermal & CFD</title>
+<meta name="description" content="Staff mechanical engineer specializing in fluidics architecture, thermal systems, and CFD/FEA across clinical diagnostics and automotive propulsion. Patents, publications, and selected work." />
+<meta name="author" content="Shrevatsan Venkatesan" />
+<meta name="robots" content="index, follow" />
+
+<!-- Open Graph / link previews (fixes the old site's blank preview problem) -->
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Shrevatsan Venkatesan — Mechanical Engineer" />
+<meta property="og:description" content="Fluidics architecture, thermal systems, and CFD/FEA across clinical diagnostics and automotive propulsion." />
+<meta property="og:url" content="https://github.com/shrevatsan/shrevatsan.github.io" />
+<!-- <meta property="og:image" content="https://YOUR-DOMAIN-HERE/images/preview.jpg" /> -->
+<meta name="twitter:card" content="summary_large_image" />
+
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,360;9..144,440;9..144,560&family=Hanken+Grotesk:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet" />
+
+<!-- Structured data: helps your name surface in search -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Shrevatsan Venkatesan",
+  "jobTitle": "Staff Mechanical Engineer",
+  "url": "https://github.com/shrevatsan/shrevatsan.github.io",
+  "sameAs": ["https://www.linkedin.com/in/shrevatsan-venkatesan/"],
+  "knowsAbout": ["Fluidics", "Thermal Systems", "CFD", "FEA", "Heat Transfer", "Microfluidics", "Reliability Engineering"]
+}
+</script>
+
+<style>
+  :root{
+    --paper:#F8F4EC;
+    --paper-2:#F2ECDF;
+    --ink:#2A2622;
+    --muted:#6B6157;
+    --ember:#BD4B26;     /* hot */
+    --petrol:#1E5A63;    /* cool */
+    --line:#E3DACB;
+    --line-soft:#EAE2D4;
+    --maxw:1080px;
+  }
+  *{box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  body{
+    margin:0;background:var(--paper);color:var(--ink);
+    font-family:"Hanken Grotesk",system-ui,sans-serif;
+    font-size:17px;line-height:1.65;-webkit-font-smoothing:antialiased;
+  }
+  a{color:var(--petrol);text-decoration:none;}
+  a:hover{color:var(--ember);}
+  a:focus-visible,button:focus-visible{outline:2px solid var(--ember);outline-offset:3px;border-radius:2px;}
+  .wrap{max-width:var(--maxw);margin:0 auto;padding:0 28px;}
+
+  /* type */
+  h1,h2,h3{font-family:"Fraunces",Georgia,serif;font-weight:440;line-height:1.08;margin:0;}
+  .eyebrow{
+    font-family:"IBM Plex Mono",monospace;font-size:.72rem;letter-spacing:.22em;
+    text-transform:uppercase;color:var(--ember);margin:0 0 .9rem;
+  }
+  .mono{font-family:"IBM Plex Mono",monospace;}
+
+  /* ---------- HERO ---------- */
+  header.hero{position:relative;overflow:hidden;border-bottom:1px solid var(--line);}
+  .streamfield{position:absolute;inset:0;width:100%;height:100%;z-index:0;opacity:.55;}
+  .hero-inner{position:relative;z-index:1;padding:78px 0 64px;}
+  .hero-name{font-size:clamp(2.9rem,7.4vw,5.2rem);font-weight:360;letter-spacing:-.015em;}
+  .hero-name .accent{font-style:italic;color:var(--ember);font-weight:440;}
+  .hero-role{
+    font-family:"IBM Plex Mono",monospace;font-size:.82rem;letter-spacing:.14em;
+    text-transform:uppercase;color:var(--petrol);margin:18px 0 0;
+  }
+  .hero-tag{max-width:46ch;margin:22px 0 0;font-size:1.18rem;color:var(--ink);}
+  .hero-links{margin-top:30px;display:flex;flex-wrap:wrap;gap:10px 14px;font-family:"IBM Plex Mono",monospace;font-size:.82rem;}
+  .hero-links a{
+    border:1px solid var(--line);padding:9px 15px;border-radius:999px;color:var(--ink);
+    transition:border-color .2s,color .2s,background .2s;
+  }
+  .hero-links a:hover{border-color:var(--ember);color:var(--ember);background:#fff;}
+
+  /* ---------- sections ---------- */
+  section{padding:62px 0;border-bottom:1px solid var(--line-soft);}
+  .sec-head{display:flex;align-items:baseline;gap:16px;margin-bottom:34px;}
+  .sec-head h2{font-size:clamp(1.6rem,3.4vw,2.2rem);}
+  .sec-num{font-family:"IBM Plex Mono",monospace;font-size:.78rem;color:var(--muted);letter-spacing:.1em;}
+
+  .lede{font-size:1.32rem;line-height:1.5;max-width:60ch;font-family:"Fraunces",serif;font-weight:360;color:var(--ink);}
+  .lede em{font-style:italic;color:var(--petrol);}
+
+  /* ---------- projects ---------- */
+  .project{display:grid;grid-template-columns:1fr 1fr;gap:36px;align-items:center;margin-bottom:56px;}
+  .project:last-child{margin-bottom:0;}
+  .project:nth-child(even) .pj-media{order:2;}
+  .pj-media{
+    aspect-ratio:4/3;border:1px dashed var(--line);border-radius:6px;background:var(--paper-2);
+    display:flex;align-items:center;justify-content:center;text-align:center;
+    color:var(--muted);font-family:"IBM Plex Mono",monospace;font-size:.74rem;padding:20px;overflow:hidden;
+  }
+  .pj-media img{width:100%;height:100%;object-fit:cover;border-radius:6px;display:block;}
+  .pj-tag{font-family:"IBM Plex Mono",monospace;font-size:.7rem;letter-spacing:.16em;text-transform:uppercase;color:var(--ember);}
+  .pj-title{font-size:1.5rem;margin:.5rem 0 .3rem;}
+  .pj-meta{font-family:"IBM Plex Mono",monospace;font-size:.72rem;color:var(--muted);margin-bottom:.9rem;}
+  .pj-body p{margin:.45rem 0;}
+  .pj-body strong{font-weight:600;color:var(--petrol);}
+
+  /* ---------- experience ---------- */
+  .xp{border-top:1px solid var(--line-soft);padding:22px 0;display:grid;grid-template-columns:170px 1fr;gap:24px;}
+  .xp:first-of-type{border-top:none;}
+  .xp-when{font-family:"IBM Plex Mono",monospace;font-size:.76rem;color:var(--muted);padding-top:5px;}
+  .xp-role{font-size:1.22rem;font-family:"Fraunces",serif;font-weight:440;}
+  .xp-org{color:var(--petrol);font-weight:500;margin:2px 0 8px;font-size:.98rem;}
+  .xp-body{font-size:.99rem;color:var(--ink);}
+
+  /* ---------- patents ---------- */
+  .pat{display:grid;grid-template-columns:48px 1fr auto;gap:16px;align-items:baseline;
+       padding:14px 0;border-top:1px solid var(--line-soft);}
+  .pat:first-of-type{border-top:none;}
+  .pat-n{font-family:"IBM Plex Mono",monospace;color:var(--ember);font-size:.82rem;}
+  .pat-t{font-size:1.02rem;}
+  .pat-id{font-family:"IBM Plex Mono",monospace;font-size:.72rem;color:var(--muted);white-space:nowrap;}
+
+  /* ---------- skills ---------- */
+  .skills{display:grid;grid-template-columns:1fr 1fr;gap:26px 48px;}
+  .skill-group h3{font-size:.78rem;font-family:"IBM Plex Mono",monospace;letter-spacing:.16em;
+                  text-transform:uppercase;color:var(--ember);margin-bottom:8px;font-weight:500;}
+  .skill-group p{margin:0;font-size:.98rem;color:var(--ink);}
+
+  /* ---------- edu + footer ---------- */
+  .edu{display:grid;grid-template-columns:1fr 1fr;gap:30px;}
+  .edu-deg{font-size:1.1rem;font-family:"Fraunces",serif;font-weight:440;}
+  .edu-school{color:var(--petrol);font-size:.96rem;}
+  .edu-when{font-family:"IBM Plex Mono",monospace;font-size:.74rem;color:var(--muted);}
+  footer{padding:46px 0 60px;text-align:center;color:var(--muted);font-family:"IBM Plex Mono",monospace;font-size:.78rem;}
+  footer a{color:var(--petrol);}
+
+  @media (max-width:760px){
+    body{font-size:16px;}
+    .project{grid-template-columns:1fr;gap:18px;}
+    .project:nth-child(even) .pj-media{order:0;}
+    .xp{grid-template-columns:1fr;gap:6px;}
+    .xp-when{padding-top:0;}
+    .skills,.edu{grid-template-columns:1fr;}
+    .pat{grid-template-columns:36px 1fr;}
+    .pat-id{grid-column:2;}
+  }
+  @media (prefers-reduced-motion:reduce){
+    .streamline{animation:none !important;}
+    html{scroll-behavior:auto;}
+  }
+</style>
+</head>
+<body>
+
+<!-- ============== HERO ============== -->
+<header class="hero">
+  <!-- Signature: CFD-style streamlines, cool(petrol)->hot(ember) gradient -->
+  <svg class="streamfield" viewBox="0 0 1200 360" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+    <defs>
+      <linearGradient id="flow" x1="0" y1="0" x2="1" y2="0">
+        <stop offset="0" stop-color="#1E5A63"/>
+        <stop offset="0.55" stop-color="#6E7A55"/>
+        <stop offset="1" stop-color="#BD4B26"/>
+      </linearGradient>
+    </defs>
+    <g fill="none" stroke="url(#flow)" stroke-width="1.4">
+      <path class="streamline" style="--d:0s"   d="M-40,60  C260,30 440,90 620,60  C820,28 1000,92 1240,58"  opacity="0.30"/>
+      <path class="streamline" style="--d:.6s"  d="M-40,98  C250,66 450,126 630,96  C820,64 1010,128 1240,94" opacity="0.40"/>
+      <path class="streamline" style="--d:1.2s" d="M-40,140 C260,108 440,168 620,138 C820,106 1000,170 1240,136" opacity="0.55"/>
+      <path class="streamline" style="--d:.3s"  d="M-40,182 C250,150 450,210 630,180 C820,148 1010,212 1240,178" opacity="0.55"/>
+      <path class="streamline" style="--d:.9s"  d="M-40,224 C260,192 440,252 620,222 C820,190 1000,254 1240,220" opacity="0.40"/>
+      <path class="streamline" style="--d:1.5s" d="M-40,266 C250,234 450,294 630,264 C820,232 1010,296 1240,262" opacity="0.30"/>
+    </g>
+  </svg>
+
+  <div class="wrap hero-inner">
+    <h1 class="hero-name">Shrevatsan <span class="accent">Venkatesan</span></h1>
+    <p class="hero-role">Staff Mechanical Engineer · Fluidics · Thermal · CFD/FEA</p>
+    <p class="hero-tag">I design and optimize electro-fluidic-mechanical systems — from vehicle propulsion to medical diagnostics and beyond.</p>
+    <nav class="hero-links" aria-label="Contact and profiles">
+      <a href="mailto:shrevatsan@gmail.com">Email</a>
+      <a href="https://www.linkedin.com/in/shrevatsan-venkatesan/" target="_blank" rel="noopener">LinkedIn</a>
+      <a href="#work">Experience</a>
+      <a href="Resume_SV.pdf" download>Résumé (PDF)</a><!-- drop your resume.pdf next to index.html and set href="resume.pdf" -->
+    </nav>
+  </div>
+</header>
+
+<main class="wrap">
+
+  <!-- ============== SUMMARY ============== -->
+  <section id="about" style="border-bottom:1px solid var(--line);">
+    <p class="lede">Thirteen years turning hard <em>flow, heat, and reliability</em> problems into shipped hardware — bridging simulation and the bench across clinical diagnostics at Bio-Rad and powertrain systems at Ford. Nine patents and publications; multiple achievement awards for advancing product performance.</p>
+  </section>
+
+  <!-- ============== SELECTED WORK ============== -->
+  <section id="work">
+    <div class="sec-head"><span class="sec-num"><h2>Experience</h2></div>
+
+    <!-- ► For each project: replace the .pj-media block's text with an <img>, e.g.
+         <img src="images/probe-cleaning.jpg" alt="CFD of probe cleaning flow">
+         Keep renders/turntable GIFs/short MP4s — they load fast and read well. -->
+
+    <!-- EXPERIENCE 1 -->
+    <article class="project">
+      <div class="pj-media"><img src="images\collage2.jpg" alt="Collage of clinical diagnostics work"></div>
+      <div class="pj-body">
+        <span class="pj-tag">System Level Fluidics & Thermal Development</span>
+        <h3 class="pj-title">Staff Mechanical Engineer</h3>
+        <p class="pj-meta">Clinical Diagnostics, Bio-Rad Laboratories,CA</p>
+        <p><strong>Leadership</strong> Concept to Production Fluidics/Thermal Design of Clinical Diagnostics Platform, Microfluidics Chip and Liquid Handling Robotics </p>
+        <p><strong>Systems Level Thinking</strong> Requirements & Risk Management, Test Protocol Development, Anamoly Detection and Design for Reliability including testing for Heat,Humidity and Altitude</p>
+        <p><strong>Communication</strong> Cross Functional collabaration with Hardware,Software, Systems and Manufacturing Teams</p>
+        <p><strong>Innovation</strong> : Multiple Patents on critical technology to maintain market dominance. </p>
+      </div>
+    </article>
+
+    <!-- EXPERIENCE 2 -->
+    <article class="project">
+      <div class="pj-media"> <img src="images\collage.jpg" alt="Collage of automotive flow-thermal work"></div>
+      <div class="pj-body">
+        <span class="pj-tag">Automotive · Model Based Systems Engineering</span>
+        <h3 class="pj-title">Sr. Product Development Engineer</h3>
+        <p class="pj-meta">Vehicle Propulsion Systems, Ford Motor Company</p>
+        <p><strong>Technical Breath</strong> Meeting Performance, NVH, and emissions targets across multiple flagship vehicle platforms such as F150, Mustang and Bronco</p>
+        <p><strong>Technical Depth</strong> Flow-thermal characterization and Sensor Signal Optimization by fusing real world data with virtual models.</p>
+        <p><strong>Optimization</strong> Handling complex tradeoffs between Perfromance,Manufacturing, Cost and Packaging </p>
+      </div>
+    </article>
+
+    <!-- EXPERIENCE 3 -->
+    <article class="project">
+      <div class="pj-media"><img src="images\collage4.png" alt="Collage of computational research work"></div>
+      <div class="pj-body">
+        <span class="pj-tag">Flow-Thermal Research and Design</span>
+        <h3 class="pj-title">Computational Research Co-op</h3>
+        <p class="pj-meta">Bio-Rad · Filed 2024</p>
+        <p><strong>Early Career</strong> Research into complex Flow and Thermal Phenomena </p>
+        <p><strong>Projects</strong> Modeling and Design of Cryogenics Systems for Satellite Electronics Application, Fuel Rail Pressure Pulsation Modeling </p>
+        
+      </div>
+    </article>    
+  </section>
+
+
+  <!-- ============== PATENTS ============== -->
+  <section id="patents">
+    <div class="sec-head"><span class="sec-num"><h2>Patents &amp; Publications</h2></div>
+
+    <div class="pat"><span class="pat-n">01</span><span class="pat-t">Probe Cleaning System and Method</span><span class="pat-id">WO2024191616A2</span></div>
+    <div class="pat"><span class="pat-n">02</span><span class="pat-t">Sampling Tube Design for Sensor Robustness</span><span class="pat-id">US20220235688A1</span></div>
+    <div class="pat"><span class="pat-n">03</span><span class="pat-t">Convolute-Swirl Integrated Duct for Swirl Generation</span><span class="pat-id">US20190323460A1</span></div>
+    <div class="pat"><span class="pat-n">04</span><span class="pat-t">Manifold Design for Active Droplet Generation on PCR Chips</span><span class="pat-id">Filed 2024</span></div>
+    <div class="pat"><span class="pat-n">05</span><span class="pat-t">System for Decontamination of Instrument Wash Buffer Delivery</span><span class="pat-id">Filed 2025</span></div>
+    <div class="pat"><span class="pat-n">06</span><span class="pat-t">Automated Reagent Pack Loading &amp; Piercing for Bio-Plex Reagents</span><span class="pat-id">Filed 2025</span></div>
+    <div class="pat"><span class="pat-n">07</span><span class="pat-t">Separator Design for Segregation of Fluid/Gas Mixture</span><span class="pat-id">Filed 2025</span></div>
+    <div class="pat"><span class="pat-n">08</span><span class="pat-t">Filter Element Robustness Strategy for Mud Ingestion</span><span class="pat-id">SAE 2019-01-0916</span></div>
+    <div class="pat"><span class="pat-n">09</span><span class="pat-t">CFD Methodology to Troubleshoot High-Frequency Turbocharger NVH</span><span class="pat-id">Ford NVH 2018</span></div>
+  </section>
+
+    <!-- ============== CERTIFICATIONS ============== -->
+  <section id="certifications">
+    <div class="sec-head"><span class="sec-num"><h2>Certifications &amp; Training</h2></div>
+
+    <div class="cert"><span class="cert-n"><span class="cert-t">Design for Six Sigma Green Belt</span><span class="cert-id"><strong><a href="https://pdf.credential.net/n0g89xug_1711588436542.pdf" target="_blank" rel="noopener"> (Six Sigma Experts)</a></strong></span></div>
+    <div class="cert"><span class="cert-n"><span class="cert-t">Consumer Driven Six Sigma</span><span class="cert-id"><strong> (Ford Institute)</strong></span></div>
+    <div class="cert"><span class="cert-n"><span class="cert-t">Machine Learning with Python</span><span class="cert-id"><strong><a href="https://www.coursera.org/account/accomplishments/verify/6APZFDSR6JY8" target="_blank" rel="noopener"> (Coursera)</a></strong></span></div>
+    <div class="cert"><span class="cert-n"><span class="cert-t">Data Analysis with Python</span><span class="cert-id"><strong><a href="https://www.coursera.org/account/accomplishments/verify/PXLGWHKR3SYM" target="_blank" rel="noopener"> (Coursera)</a></strong></span></div>
+    <div class="cert"><span class="cert-n"><span class="cert-t">Python Data Structures</span><span class="cert-id"><strong><a href="https://www.coursera.org/account/accomplishments/certificate/HGNFKPH3G5S3" target="_blank" rel="noopener"> (Coursera)</a></strong></span></div> 
+    <div class="cert"><span class="cert-n"><span class="cert-t">Weibull Analysis for Reliability Engineering</span><span class="cert-id"><strong> (Reliasoft)</strong></span></div>
+    <div class="cert"><span class="cert-n"><span class="cert-t">Computational Fluid Dynamics</span><span class="cert-id"><strong> (Ansys & Siemens)</strong></span></div>
+    <div class="cert"><span class="cert-n"><span class="cert-t">Design Control</span><span class="cert-id"><strong> (Association for the Advancement of Medical Instrumentation)</strong></span></div>       
+  </section>
+
+  <!-- ============== SKILLS ============== -->
+  
+  <section id="skills">
+    <div class="sec-head"><span class="sec-num"><h2>Capabilities</h2></div>
+    <div class="skills">
+      <div class="skill-group"><h3>Domains</h3><p>Fluidics architecture · Multiphase flow &amp; heat transfer · Microfluidics · Reliability &amp; DFR · Injection molding</p></div>
+      <div class="skill-group"><h3>Simulation</h3><p>Ansys CFD/Mechanical · COMSOL · STAR-CCM+ · Converge · Simulink · ANSA</p></div>
+      <div class="skill-group"><h3>Methods</h3><p>DFSS (Green Belt) · DFMEA · DOE &amp; optimization · Six Sigma · Design Control / ISO 13485 · CAPA</p></div>
+      <div class="skill-group"><h3>Data &amp; CAD</h3><p>Python (Pandas/NumPy/SciPy) · Minitab · modeFRONTIER · SOLIDWORKS · Teamcenter · SAP PLM</p></div>
+    </div>
+  </section>
+
+  <!-- ============== EDUCATION ============== -->
+  <section id="education" style="border-bottom:none;">
+    <div class="sec-head"><span class="sec-num"><h2>Education</h2></div>
+    <div class="edu">
+      <div>
+        <div class="edu-deg">M.S., Mechanical Engineering</div>
+        <div class="edu-school">University at Buffalo, SUNY</div>
+        <div class="edu-when">2009 — 2011</div>
+      </div>
+      <div>
+        <div class="edu-deg">B.Tech., Mechanical Engineering</div>
+        <div class="edu-school">Amrita Vishwa Vidyapeetham, India</div>
+        <div class="edu-when">2005 — 2009</div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    San Ramon, CA · <a href="mailto:shrevatsan@gmail.com">shrevatsan@gmail.com</a> ·
+    <a href="https://www.linkedin.com/in/shrevatsan-venkatesan/" target="_blank" rel="noopener">LinkedIn</a><br>
+    © <span id="yr"></span> Shrevatsan Venkatesan
+  </div>
+</footer>
+
+<script>
+  document.getElementById('yr').textContent = new Date().getFullYear();
+
+  // Subtle streamline drift (skipped automatically under prefers-reduced-motion via CSS)
+  if (!window.matchMedia || !window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+    document.querySelectorAll('.streamline').forEach(function(p){
+      var len = p.getTotalLength();
+      p.style.strokeDasharray = (len*0.14) + ' ' + (len*0.86);
+      p.animate(
+        [{strokeDashoffset:len},{strokeDashoffset:0}],
+        {duration:14000, iterations:Infinity, easing:'linear', delay: -parseFloat(getComputedStyle(p).getPropertyValue('--d'))*1000 || 0}
+      );
+    });
+  }
+</script>
+</body>
+</html>
